@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 750px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #9e9a9a69;
+    border-width: 3px;
+
+}
+
+.contactForm button {
+    margin: 10px;
+    padding: 7px;
+    background: #4c92ffe8;
+    border: none;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.contactForm input {
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 1px;
+    border-bottom-style: ridge;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c3c3c3;
+    padding: 10px;
+}
+
+.singleContact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    background: #e6e6e6;
+    margin-top: 10px;
+    font-family: serif;
+}
+
+.singleContact img {
+    width: 100px;
+    height: 100px;
+}

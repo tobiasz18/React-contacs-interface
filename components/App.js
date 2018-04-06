@@ -34,7 +34,7 @@ var contactForm = {
 var App = React.createClass({
     render: function() {
         return (
-            React.createElement('div', {},
+            React.createElement('div', {className: 'container'},
                 React.createElement(ContactForm,{contact: contactForm}),
                 React.createElement(Contacts, {item: contacts})
             )
