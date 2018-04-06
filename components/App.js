@@ -36,7 +36,7 @@ var App = React.createClass({
         return (
             React.createElement('div', {},
                 React.createElement(ContactForm,{contact: contactForm}),
-                /*React.createElement(Contacts, {item: contacts})*/
+                React.createElement(Contacts, {item: contacts})
             )
         );
     }
